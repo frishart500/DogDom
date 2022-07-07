@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_num_q"
+            android:text="1."
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/lato_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Вопрос"
+            android:textSize="14dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/lato_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/text_question"
+        android:text="В чем суть вашего проекта, как вы собираетесь его продвигать?"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/lato_regular"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Ответ"
+        android:textSize="14dp"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/lato_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/text_answer"
+        android:text="Ну попробуй догадаться, если умеешь думать, значит до тебя допрет, что к чему, придурь..."
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/lato_regular"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
